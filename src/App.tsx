@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import { Appbar } from './components/AppBar/Appbar'
+import Header from './components/AppBar/Header'
 
 interface IAppProps {
   children:ReactNode
@@ -8,7 +8,7 @@ interface IAppProps {
 export const App = ({children}:IAppProps) =>{
   return (
     <>
-      <Appbar/>
+      <Header/>
       {children}
       
     </>
