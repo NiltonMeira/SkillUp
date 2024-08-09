@@ -5,6 +5,7 @@ export const StyledAppBar = styled(AppBar)`
     color: black;
     padding-left: 100px;
     padding-right: 100px;   
+    position: fixed
 `
 export const StyledToolBar = styled(Toolbar)`
     display: flex;
