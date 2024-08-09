@@ -1,7 +1,9 @@
+import { CenterBox } from "./components/CenterBox/CenterBox"
+
 export const Home = () => {
     return(
         <>
-        <h1></h1>
+            <CenterBox/>
         </>
     )
 }
