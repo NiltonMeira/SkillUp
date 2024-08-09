@@ -1,17 +1,26 @@
-import { Box } from '@mui/material'
+import { Box, Button, Typography } from '@mui/material'
 import Hands from '../../../../assets/hands.png'
-import Skillup from '../../../../assets/skillup.png'
-import { MainBox } from './style'
+import Skillup from '../../../../assets/skillup.svg'
+import { ColorBox, MainBox, PictureBox, StyledBox } from './style'
 
-export const CenterBox= () => {
-    return(
+export const CenterBox = () => {
+    return (
         <>
             <MainBox>
-                <img src={Hands} alt="" className='handsImg'/>
-                <Box>
-                    <img src={Skillup} alt=""  />
-                    <p>Unindo experiência e propósito para desenvolver pessoas e organizações.</p>
-                </Box>
+                <PictureBox>
+                    <ColorBox></ColorBox>
+                    <img src={Hands} alt="" className='handsImg' />
+                </PictureBox>
+                
+                <StyledBox>
+                    
+                    <img src={Skillup} alt="" className='bigSkillup'/>
+                    <Typography variant="h6" component="h2">
+                        Unindo experiência e propósito para desenvolver pessoas e organizações.
+                    </Typography>
+                    <Button variant="text">Saiba mais</Button>
+                </StyledBox>
+                
             </MainBox>
         </>
     )

@@ -17,3 +17,6 @@ export const StyledBox = styled(Box)`
     gap: 100px;
 
 `
+export const StyledLogo = styled("img")`
+    width: 150px;
+`
