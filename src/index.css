@@ -10,12 +10,8 @@
   color: black;
 }
 
-.handsImg{
-  height: 100%;
-}
-
 .bigSkillup{
-  width: 33%;
+  width: 60%;
 
   @media (max-width: 768px) {
     width: 60%;

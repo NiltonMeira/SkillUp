@@ -1,7 +1,7 @@
-import { Box, Button, Typography } from '@mui/material'
+import {Typography } from '@mui/material'
 import Hands from '../../../../assets/hands.png'
 import Skillup from '../../../../assets/skillup.svg'
-import { ButtonBox, ColorBox, MainBox, PictureBox, StyledBox, StyledButton } from './style'
+import {ColorBox, MainBox, PictureBox, StyledBox, StyledButton } from './style'
 
 export const CenterBox = () => {
     return (
