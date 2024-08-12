@@ -1,6 +1,4 @@
 import {Typography } from '@mui/material'
-import Hands from '../../../../assets/hands.png'
-import Skillup from '../../../../assets/skillup.svg'
 import {ColorBox, MainBox, PictureBox, StyledBox, StyledButton } from './style'
 
 export const CenterBox = () => {
@@ -9,10 +7,10 @@ export const CenterBox = () => {
             <MainBox>
                 <PictureBox>
                     <ColorBox></ColorBox>
-                    <img src={Hands} alt="" className='handsImg' />
+                    <img src='/hands.png' alt="" className='handsImg' />
                 </PictureBox>
                 <StyledBox>
-                    <img src={Skillup} alt="" className='bigSkillup' />
+                    <img src='Skillup.svg' alt="" className='bigSkillup' />
                     <Typography variant="h5" component="h2">
                         Unindo experiência e propósito para desenvolver pessoas e organizações.
                     </Typography>

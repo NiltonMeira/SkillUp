@@ -6,7 +6,6 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Modal from '@mui/material/Modal';
 import CloseIcon from '@mui/icons-material/Close';
 import { StyledAppBar, StyledBox, StyledLogo, StyledToolBar, ModalContent, StyledLink } from './styles';
-import SkillUp from '../../assets/skillup.svg';
 import { Link } from 'react-router-dom';
 
 export default function Header() {
@@ -19,7 +18,7 @@ export default function Header() {
     <Box sx={{ flexGrow: 1 }}>
       <StyledAppBar position="static">
         <StyledToolBar>
-          <StyledLogo src={SkillUp} alt="Logo SkillUp" />
+          <StyledLogo src='Skillup.svg' alt="Logo SkillUp" />
           
           <IconButton 
             onClick={handleOpen} 
