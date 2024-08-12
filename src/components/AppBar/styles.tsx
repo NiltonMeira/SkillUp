@@ -1,4 +1,4 @@
-import { AppBar, Box, styled, Toolbar, Typography } from "@mui/material";
+import { AppBar, Box, styled, Toolbar} from "@mui/material";
 import { Link } from "react-router-dom";
 
 export const StyledAppBar = styled(AppBar)`
