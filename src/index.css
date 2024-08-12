@@ -15,7 +15,12 @@
 }
 
 .bigSkillup{
-  width: 600px;
+  width: 33%;
+
+  @media (max-width: 768px) {
+    width: 60%;
+    
+  }
 }
 
 
