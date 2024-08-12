@@ -1,5 +1,5 @@
 import {Typography } from '@mui/material'
-import {ColorBox, MainBox, PictureBox, StyledBox, StyledButton } from './style'
+import {ColorBox, MainBox, PictureBox, StyledBox, StyledButton, Subtitle } from './style'
 
 export const CenterBox = () => {
     return (
@@ -11,9 +11,9 @@ export const CenterBox = () => {
                 </PictureBox>
                 <StyledBox>
                     <img src='Skillup.svg' alt="" className='bigSkillup' />
-                    <Typography variant="h5" component="h2">
+                    <Subtitle variant="h6">
                         Unindo experiência e propósito para desenvolver pessoas e organizações.
-                    </Typography>
+                    </Subtitle>
                     <StyledButton variant="text">
                         <Typography variant="h6" component="h2">
                             Saiba mais

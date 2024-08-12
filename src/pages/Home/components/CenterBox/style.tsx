@@ -1,4 +1,4 @@
-import { Box, Button, styled } from "@mui/material";
+import { Box, Button, styled, Typography } from "@mui/material";
 
 export const MainBox = styled(Box)`
     display: flex;
@@ -78,3 +78,8 @@ export const ButtonBox = styled(Box)`
     width: 100%;
     justify-content: center;
 `;
+
+export const Subtitle = styled(Typography)`
+    width: 90%;
+    text-align: center;
+`
