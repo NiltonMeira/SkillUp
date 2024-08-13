@@ -7,6 +7,7 @@ export const StyledAppBar = styled(AppBar)`
     padding-left: 100px;
     padding-right: 100px;   
     position: fixed;
+    z-index: 99;
 
     @media (max-width: 960px) {
         padding-left: 20px;

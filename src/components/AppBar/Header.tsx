@@ -30,22 +30,27 @@ export default function Header() {
 
           <StyledBox sx={{ display: { xs: 'none', md: 'flex' } }}>
             <Link to={"/"} className='link'>
-              <Typography variant="h5" component="h2">
+              <Typography variant="h6" component="h2">
                 Home
               </Typography>
             </Link>
             <Link to={"/"} className='link'>
-              <Typography variant="h5" component="h2">
+              <Typography variant="h6" component="h2">
                 Quem somos
               </Typography>
             </Link>
             <Link to={"/"} className='link'>
-              <Typography variant="h5" component="h2">
+              <Typography variant="h6" component="h2">
+                Nosso time
+              </Typography>
+            </Link>
+            <Link to={"/"} className='link'>
+              <Typography variant="h6" component="h2">
                 Serviços
               </Typography>
             </Link>
             <Link to={"/"} className='link'>
-              <Typography variant="h5" component="h2">
+              <Typography variant="h6" component="h2">
                 Contato
               </Typography>
             </Link>
