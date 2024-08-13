@@ -39,7 +39,7 @@ export default function Header() {
                 Quem somos
               </Typography>
             </Link>
-            <Link to={"/"} className='link'>
+            <Link to={"/ourteam"} className='link'>
               <Typography variant="h6" component="h2">
                 Nosso time
               </Typography>
@@ -61,7 +61,7 @@ export default function Header() {
       <Modal 
         open={open} 
         onClose={handleClose}
-        sx={{ top: '64px' }}  // Ajuste a altura se necessário
+        sx={{ top: '64px' }}  
       >
         <ModalContent>
           <IconButton onClick={handleClose} sx={{ alignSelf: 'flex-end' }}>
