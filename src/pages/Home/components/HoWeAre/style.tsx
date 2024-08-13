@@ -37,9 +37,9 @@ export const Title = styled(Typography)`
 
 export const CutedPicture = styled("img")`
     width: 30%;
-    align-self: flex-start;
+    align-self: center; // Alinha a imagem verticalmente ao centro
 
     @media (max-width: 768px) {
-       display:none;
+        display: none;
     }
 `;

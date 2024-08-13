@@ -8,7 +8,7 @@ export const HoWeAre = () => {
                 <Title variant="h3">
                     Quem somos?
                 </Title>
-                <Typography variant="body1" component="h6">
+                <Typography variant="h6" component="h6">
                     A SkillUp é uma consultoria especializada em desenvolvimento de pessoas e organizações, fundada por duas amigas que compartilham uma amizade de quase 25 anos e uma rica trajetória profissional conjunta. Com uma vasta experiência acumulada ao longo de suas carreiras, onde já trabalharam juntas em três empresas diferentes, decidiram unir suas habilidades e conhecimentos para criar a SkillUp.
                 </Typography>
             </TextBox>
