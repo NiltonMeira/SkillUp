@@ -1,9 +1,9 @@
-import { LookScren } from "./components/LookScreen/LookScreen"
+import { LookScreen } from "./components/LookScreen/LookScreen"
 
 export const OurTeam = () => {
     return(
         <>
-            <LookScren/>
+            <LookScreen/>
         </>
     )
 }
