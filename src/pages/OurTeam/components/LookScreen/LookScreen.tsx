@@ -1,5 +1,6 @@
 import { Typography } from "@mui/material";
 import { ProfileBox, StyledImages, TeamBox, Title, YelowBox } from "./stryle";
+import { Link } from "react-router-dom";
 
 export const LookScreen = () => {
     return (
@@ -10,7 +11,10 @@ export const LookScreen = () => {
                 </Title>
                 <TeamBox>
                     <ProfileBox>
-                        <StyledImages src="/Marilia.png" alt="Foto de Marília Guimarães" />
+
+                        <Link to={"/Marilia"} className='link'>
+                            <StyledImages src="/Marilia.png" alt="Foto de Marília Guimarães" />
+                        </Link>
                         <Typography variant="h6" component="h2">
                             Marília Guimarães
                         </Typography>
@@ -19,7 +23,9 @@ export const LookScreen = () => {
                         </Typography>
                     </ProfileBox>
                     <ProfileBox>
-                        <StyledImages src="/Vanusa.png" alt="Foto de Vanusa Vilarinho" />
+                        <Link to={"/Marilia"} className='link'>
+                            <StyledImages src="/Vanusa.png" alt="Foto de Vanusa Vilarinho" />
+                        </Link>
                         <Typography variant="h6" component="h2">
                             Vanusa Vilarinho
                         </Typography>
