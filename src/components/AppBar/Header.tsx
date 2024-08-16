@@ -39,12 +39,12 @@ export default function Header() {
                 Nosso time
               </Typography>
             </Link>
-            <Link to={"/"} className='link'>
+            <Link to={"/services"} className='link'>
               <Typography variant="h6" component="h2">
                 Serviços
               </Typography>
             </Link>
-            <Link to={"/"} className='link'>
+            <Link to={"/contact"} className='link'>
               <Typography variant="h6" component="h2">
                 Contato
               </Typography>
