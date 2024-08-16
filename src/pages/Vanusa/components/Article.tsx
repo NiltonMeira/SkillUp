@@ -1,5 +1,5 @@
 import { Typography } from "@mui/material"
-import { CutedPicture, TextBox, WhiteBox, YellowBox } from "./style"
+import { BlueBox, CutedPicture, NoramlPicture, TextBox, WhiteBox, YellowBox } from "./style"
 
 export const Article = () => {
     return (
@@ -29,11 +29,66 @@ export const Article = () => {
                 </TextBox>
                 <CutedPicture src="/VanusaCortada.png">
                 </CutedPicture>
-
             </YellowBox>
+
             <WhiteBox>
-                <></>
+                <NoramlPicture src="./Vanusa/01.jpg"></NoramlPicture>
+                <TextBox>
+                    <Typography variant="h4" component="h1">
+                        Formação em:
+                    </Typography>
+                    <Typography component="p">
+                        - Administração de Empresas – UFPR.
+                    </Typography>
+                    <Typography component="p">
+                        - MBA em Gestão Estratégica de Pessoas – FGV.
+                    </Typography>
+                    <Typography component="p">
+                        - MBA em Gestão Escolar - USP.
+                    </Typography>
+                    <Typography component="p">
+                        - Pós-graduação em Educação, Protagonismo e Propósito de vida – Universidade Católica de Brasília.
+                    </Typography>
+                    <Typography component="p">
+                        - Teoria U pela Presencing Institute com Otto Scharmer.
+                    </Typography>
+                    <Typography component="p">
+                        - Seminário de Inovação pela Universite Compiegne - França.
+                    </Typography>
+                    <Typography component="p">
+                        - Programa Formação Mulheres Líderes - Lapidus.
+                    </Typography>
+                    <Typography component="p">
+                        -Programa Insighters - UEXP.
+                    </Typography>
+                </TextBox>
             </WhiteBox>
+
+            <BlueBox>
+                <TextBox>
+                    <Typography variant="h4" component="h1">
+                        Participou como membro em:
+
+                    </Typography>
+                    <Typography component="p">
+                        - MEX - Mulheres Executivas do Paraná.
+
+                    </Typography>
+                    <Typography component="p">
+                        - Grupo de T&D das montadoras.
+
+                    </Typography>
+                    <Typography component="p">
+                        -Conselho de Inovação da FIEP.
+                        - MBA em Gestão Escolar - USP.
+                    </Typography>
+                    <Typography component="p">
+                        - Comissão de desenvolvimento de lideranças do Brasil Marista.
+                    </Typography>
+
+                </TextBox>
+                <NoramlPicture src="./Vanusa/02.jpg"></NoramlPicture>
+            </BlueBox>
         </>
     )
 }

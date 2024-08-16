@@ -28,7 +28,24 @@ export const WhiteBox = styled(Box)`
     padding: 50px;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #f1bb06;
+
+    @media (max-width: 768px) {
+        padding: 20px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+    }
+`;
+
+export const BlueBox = styled(Box)`
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #0B314A;
     color: white;
 
     @media (max-width: 768px) {
@@ -44,7 +61,18 @@ export const TextBox = styled(Box)`
     display: flex;
     flex-direction: column;
     width: 60%;
-    gap: 20px;
+    gap: 30px;
+    text-align: justify;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+`;
+export const TextBox2 = styled(Box)`
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 30px;
     text-align: justify;
 
     @media (max-width: 768px) {
@@ -60,5 +88,9 @@ export const CutedPicture = styled("img")`
         display: none;
     }
 `;
+
+export const NoramlPicture = styled("img")`
+    width: 20%;
+`
 
 
