@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 export default function Header() {
   const [open, setOpen] = useState(false);
-
+  
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
@@ -32,11 +32,6 @@ export default function Header() {
             <Link to={"/"} className='link'>
               <Typography variant="h6" component="h2">
                 Home
-              </Typography>
-            </Link>
-            <Link to={"/"} className='link'>
-              <Typography variant="h6" component="h2">
-                Quem somos
               </Typography>
             </Link>
             <Link to={"/ourteam"} className='link'>
