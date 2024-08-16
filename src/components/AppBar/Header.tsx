@@ -65,8 +65,8 @@ export default function Header() {
           <StyledLink to={"/"} onClick={handleClose}>
             Home
           </StyledLink>
-          <StyledLink to={"/"} onClick={handleClose}>
-            Quem somos
+          <StyledLink to={"/ourteam"} onClick={handleClose}>
+            Nosso time
           </StyledLink>
           <StyledLink to={"/"} onClick={handleClose}>
             Serviços
