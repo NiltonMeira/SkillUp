@@ -100,7 +100,7 @@ export const Article = () => {
                     
 
                 </TextBox>
-                <NoramlPicture src="./Vanusa/02.jpg"></NoramlPicture>
+                <NoramlPicture src="./Marilia/02.jpg"></NoramlPicture>
             </BlueBox>
         </>
     )
