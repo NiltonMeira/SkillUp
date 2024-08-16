@@ -23,7 +23,7 @@ export const LookScreen = () => {
                         </Typography>
                     </ProfileBox>
                     <ProfileBox>
-                        <Link to={"/Marilia"} className='link'>
+                        <Link to={"/Vanusa"} className='link'>
                             <StyledImages src="/Vanusa.png" alt="Foto de Vanusa Vilarinho" />
                         </Link>
                         <Typography variant="h6" component="h2">
