@@ -29,7 +29,7 @@ export const Article = () => {
 
                     </Typography>
                     <Typography component="p">
-                        - Membro do GEDEP – Grupo de desenvolvimento de pessoas
+                        - Membro do GEDEP  Grupo de desenvolvimento de pessoas
                     </Typography>
                     <Typography component="p">
                         - Proprietária da empresa Marília Guimarães – Desenvolvimento de Pessoas e Organizações
@@ -81,7 +81,6 @@ export const Article = () => {
                 </TextBox>
             </WhiteBox>
             
-
             <BlueBox>
                 <TextBox>
                     <Typography variant="h4" component="h1">
